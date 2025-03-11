@@ -70,16 +70,43 @@ header{
     transition: all 0.3s ease 0s;
     color: #2778E8;
 }
+#titulo{
+    width: 100vw;
+    height: auto;
+    display: block;
+    padding: 50px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1, h3{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.itens{
+    background-color:rgba(218, 213, 213, 0.8);
+    margin: 10%;
+    margin-top: 0;
+    margin-bottom: 5%;
+    padding: 30px;
+    border-radius: 30px;
+}
 /*footer*/
 footer{
-    margin-left: 25%;
     display: flex;
-    width: 50vw;
-    height: 100px;
+    width: 100vw;
+    height: auto;
     padding: 10px 30px;
     text-align: center;
     justify-content: center;
-    background-color: rgb(218, 213, 213);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    background-color: rgba(218, 213, 213, 0.8);
   }
+  
+@media screen and (max-width: 720px){
+    #navbar{
+        display: none;
+}
+}

@@ -107,16 +107,13 @@ header{
   }
 /*footer*/
 footer{
-    margin-left: 25%;
     display: flex;
-    width: 50vw;
-    height: 100px;
+    width: 100vw;
+    height: auto;
     padding: 10px 30px;
     text-align: center;
     justify-content: center;
-    background-color: rgb(218, 213, 213);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    background-color: rgba(218, 213, 213, 0.8);
   }
 
 /*main*/
@@ -135,4 +132,9 @@ p{
     margin-bottom: 5%;
     padding: 30px;
     border-radius: 30px;
+}
+@media screen and (max-width: 720px){
+    #navbar{
+        display: none;
+}
 }
